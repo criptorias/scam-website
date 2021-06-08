@@ -3100,11 +3100,15 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #D2D2D2;
+		width: 100%;
+    	height: 400px;
+    	background-image: url(../images/imagefooter2.png);
+    	background-size: cover;
+		/*background: #D2D2D2;*/
 		border-top: 0;
 		color: #000000;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 4em 0 2em 0;	
 	}
 
 		#footer .copyright {
@@ -3478,7 +3482,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				text-align: center;
+					text-align: center;
 			}
 
 				#footer .copyright li {
@@ -3492,6 +3496,8 @@ input, select, textarea {
 					#footer .copyright li:first-child {
 						margin-top: 0;
 					}
+
+
 
 
 		/* Header Panel */
