@@ -2281,6 +2281,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		cursor: pointer;
 	}
 
 		.icon:before {
@@ -2310,6 +2311,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			font-size: 1.25em;
 		}
 
 /* Image */
@@ -2689,6 +2691,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: inline-block;
 	}
 
 		ul.icons li {
@@ -3602,7 +3605,8 @@ input, select, textarea {
     border: solid 2px #9E2A20;
     border-radius: 50px;
     transition: .4s;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
+    cursor: pointer;
 }
 
 .square_btn:hover {
