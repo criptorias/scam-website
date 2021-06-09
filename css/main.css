@@ -2028,6 +2028,12 @@ input, select, textarea {
 		margin-top: -0.5em;
 		line-height: 1.5em;
 	}
+	
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -0.5em;
+		line-height: 1.5em;
+	}
 
 	header h3 + p {
 		font-size: 1.1em;
@@ -2051,7 +2057,7 @@ input, select, textarea {
 		header.major h2 + p {
 			color: #000000;
 			font-size: 1.4em;
-			font-weight: 700;
+			font-weight: 500;
 			margin-top: -0.75em;
 			text-align: justify;
 		}
@@ -3428,6 +3434,7 @@ input, select, textarea {
 				header.major h2 + p {
 					font-size: 1.5em;
 				}
+				
 
 		/* Features */
 
