@@ -13,11 +13,9 @@ code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -480,7 +478,7 @@ input, select, textarea {
 				}
 
 
-		@media screen and (max-width: 2800px) {
+		media screen and (max-width: 2800px) {
 
 			#footer {
 				text-align: center;
@@ -2004,6 +2002,7 @@ input, select, textarea {
 
 			.container {
 				max-width: calc(100% - 3.375em);
+				text-align: left;
 			}
 
 		}
@@ -2281,7 +2280,6 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		cursor: pointer;
 	}
 
 		.icon:before {
@@ -2311,7 +2309,6 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-			font-size: 1.25em;
 		}
 
 /* Image */
@@ -2691,7 +2688,6 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		display: inline-block;
 	}
 
 		ul.icons li {
@@ -3388,7 +3384,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
+		
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
@@ -3426,16 +3422,13 @@ input, select, textarea {
 
 		/* Section/Article */
 
-			header br {
-				display: none;
-			}
-
 			header.major h2 {
 				font-size: 2.5em;
 			}
 
 				header.major h2 + p {
-					font-size: 1.5em;
+					font-size: 1.2em;
+					text-align: left !important;
 				}
 				
 
@@ -3490,6 +3483,7 @@ input, select, textarea {
 			#main > section > .container {
 				padding: 2em 0 0 0;
 			}
+				
 
 		/* Footer */
 
@@ -3536,7 +3530,7 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-
+		
 		/* Basic */
 
 			html, body {
@@ -3605,8 +3599,7 @@ input, select, textarea {
     border: solid 2px #9E2A20;
     border-radius: 50px;
     transition: .4s;
-    margin-bottom: 1em;
-    cursor: pointer;
+    margin-bottom: 4em;
 }
 
 .square_btn:hover {
