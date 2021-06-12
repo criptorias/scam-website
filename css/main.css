@@ -2691,6 +2691,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: inline-block;
 	}
 
 		ul.icons li {
@@ -3424,10 +3425,6 @@ input, select, textarea {
 			}
 
 		/* Section/Article */
-
-			header br {
-				display: none;
-			}
 
 			header.major h2 {
 				font-size: 2.5em;
